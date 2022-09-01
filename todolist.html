@@ -9,11 +9,13 @@
     <script src="todolist.js"></script>
   </head>
   <body>
-    <div class="header">TO Do List</div>
-    <div class="model">
-      <input type="text" class="text_box" onkeypress="show_name(event)" />
-      <input type="button" value="추가" class="button" />
-      <div class="text_list"></div>
+    <div id="header">TO Do List</div>
+    <div id="model">
+      <input type="text" id="text_box" />
+      <input type="button" value="추가" id="button" onclick="printlist()" />
+      <div id="text_list">
+        <ul id="todo-list"></ul>
+      </div>
     </div>
   </body>
 </html>

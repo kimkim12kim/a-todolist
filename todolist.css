@@ -4,12 +4,12 @@ body {
   margin: 0px;
   background-color: aquamarine;
 }
-.header {
+#header {
   text-align: center;
   font-size: 50px;
   font-family: "Anton", sans-serif;
 }
-.model {
+#model {
   position: absolute;
   border: 1px solid white;
   border-radius: 20px;
@@ -22,12 +22,12 @@ body {
   text-align: center;
   padding-top: 20px;
 }
-.text_box {
+#text_box {
   height: 25px;
   width: 200px;
   border: 1px solid #868686;
 }
-.button {
+#button {
   height: 30px;
   width: 70px;
   margin-left: 10px;
@@ -36,11 +36,11 @@ body {
   background-color: aquamarine;
   cursor: pointer;
 }
-.text_list {
+#text_list {
   margin-top: 40px;
   margin-left: 50px;
   width: 400px;
   height: 500px;
-  text-align: center;
+  text-align: left;
   border: 1px solid white;
 }
